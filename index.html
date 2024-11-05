@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>India's coal mining</title>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  <header>
+    <div class="logo"><a href="#welcome">Welcome..</a></div>
+    <nav class="navbars">
+      <a href="#carbon-footprint-calculator">Carbon Footprint Calculator</a>
+      <a href="#carbon-emissions-calculator">Carbon Emissions Calculator</a>
+      <a href="#carbon-offset-calculator">Carbon Offset Calculator</a>
+    </nav>
+  </header>
+  <div id="carbon-footprint-calculator">
+    <section class="carbon-footprint-calculator">
+      <h1>Carbon Footprint Calculator</h1>
+      <div id="calculator">
+        <label for="energy-consumption">Monthly Energy Consumption (kWh):</label>
+        <input type="number" id="energy-consumption" placeholder="Enter your monthly energy consumption">
+        <label for="transportation-type">Primary Mode of Transportation:</label>
+        <select id="transportation-type">
+          <option value="car">Car</option>
+          <option value="bus">Bus</option>
+          <option value="train">Train</option>
+          <option value="bike">Bike</option>
+        </select>
+        <label for="waste-management-type">Waste Management Practice:</label>
+        <select id="waste-management-type">
+          <option value="recycle">Recycle</option>
+          <option value="compost">Compost</option>
+          <option value="landfill">Landfill</option>
+        </select>
+        <button id="calculate-btn">Calculate Carbon Footprint</button>
+      </div>
+      <div id="result">
+        <h2>Your Carbon Footprint:</h2>
+        <p id="total-footprint"></p>
+      </div>
+    </section>
+  </div>
+
+  <div id="carbon-emissions-calculator">
+  <section class="coal">
+    
+    <h1>Carbon Emissions Calculator</h1>
+    <form id="calculator-form2">
+      <label for="coal-produced">Quantity of Coal Produced (tons):</label>
+      <input type="number" id="coal-produced" placeholder="Enter quantity of coal produced">
+      <label for="carbon-content">Carbon Content of Coal (%):</label>
+      <input type="number" id="carbon-content" placeholder="Enter carbon content of coal">
+      <label for="emission-factor">Emission Factor (tons CO2e/ton coal):</label>
+      <input type="number" id="emission-factor" placeholder="Enter emission factor">
+      <button id="calculate-btn2">Calculate Carbon Emissions</button>
+    </form>
+    <div id="result2"></div>
+  </section>
+  </div>
+
+  <div id="carbon-offset-calculator">
+  <section class="carbon-offset-calculator">
+    <h1>Carbon Offset Calculator</h1>
+    <div id="calculator">
+      <label for="footprint-input">Your Carbon Footprint (tons CO2):</label>
+      <input type="number" id="footprint-input" placeholder="Enter your carbon footprint">
+      <label for="offset-type-select">Select Offset Type:</label>
+      <select id="offset-type-select">
+        <option value="trees">Plant Trees</option>
+        <option value="renewable-energy">Renewable Energy</option>
+        <option value="energy-efficiency">Energy Efficiency</option>
+      </select>
+      <button id="calculate-btn1">Calculate Offset</button>
+    </div>
+    <div id="result">
+      <h2>Offset Result:</h2>
+      <p id="offset-result"></p>
+    </div>
+  </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

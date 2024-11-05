@@ -1,0 +1,119 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  background-image: url(dexter-fernandes-AByHM2Q7wIk-unsplash.jpg);
+  opacity: 0.6;
+}
+header {
+  width: 100%;
+  background-color: rgba(29, 36, 41, 0.781);
+  color: aliceblue;
+  padding: 20px;
+  position: fixed;
+
+}
+
+.navbars {
+  float: right;
+  justify-content: space-between;
+
+
+
+}
+
+.navbars a{
+  margin-right: 30px;
+  text-decoration: none;
+  color: wheat;
+}
+
+.logo a {
+  text-decoration: none;
+  float: left;
+  display: flex;
+  color: wheat;
+}
+
+section {
+  background-color: #fff;
+  padding: 50px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+#result {
+  margin-top: 20px;
+}
+
+#result h2 {
+  margin-top: 0;
+}
+
+#result p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #666;
+}
+
+#offset-result {
+  font-size: 18px;
+  color: #666;
+}
+
+#result2 {
+  margin-top: 20px;
+}
+
+#result2 h2 {
+  margin-top: 0;
+}
+
+#result2 p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #666;
+}
+.carbon-footprint-calculator{
+  padding-top: 70px;
+}
+  
